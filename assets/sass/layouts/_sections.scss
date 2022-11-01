@@ -1,0 +1,37 @@
+
+body > section {
+    width: 100%;
+    padding: 1.5rem;
+
+    @include flex();
+
+    &:nth-child(2){
+        min-height: 50vh;
+    
+        background-color: $color-primary;
+    }
+
+    &:nth-child(3){
+        min-height: 50vh;
+    
+        background-color: $background-color-alt;
+    }
+    
+    &:nth-child(4){
+        min-height: 60vh;
+    
+        background-color: $background-color-alt-dark;
+    }
+
+    &:nth-child(5){
+        min-height: 50vh;
+    
+        background-color: $color-primary;
+    }
+
+    &:nth-child(6){
+        min-height: 80vh;
+    
+        background-color: $background-color-alt-dark;
+    }
+}
