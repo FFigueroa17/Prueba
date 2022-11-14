@@ -1,0 +1,13 @@
+@import "./../../variables";
+
+.Header {
+    top: 0;
+    left: 0;
+    padding: 0;
+
+    position: sticky;
+
+    z-index: 10;
+
+    background-color: $color-primary;
+}
